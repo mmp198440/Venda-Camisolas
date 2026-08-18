@@ -1,0 +1,23 @@
+PACOTE PRONTO PARA GITHUB + CODEMAGIC
+
+Estrutura principal:
+- lib/main.dart
+- pubspec.yaml
+- analysis_options.yaml
+- codemagic.yaml
+- README.md
+
+IMPORTANTE:
+Este ZIP está organizado para ser extraído diretamente na raiz do repositório.
+Não é para o Codemagic compilar o ZIP fechado.
+
+No GitHub Codespaces:
+1. Coloca este ZIP no repositório.
+2. Abre um Codespace.
+3. No terminal, corre:
+   unzip Venda-Camisolas-GitHub-Ready.zip
+   rm Venda-Camisolas-GitHub-Ready.zip
+   git add .
+   git commit -m "Adicionar aplicação Flutter"
+   git push
+4. Volta ao Codemagic e usa "Check for configuration files".
